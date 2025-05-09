@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table tag</title>
+</head>
+<body>
+
+  <!-- Table will store the data int the form of rows and column 
+   ? Tags:
+      table: it defines the cretion of table.
+      tr: It defines the creation of table row:
+      th: It defines the crdtion of table head.
+      td: It defines the table data
+      captions: it defines the tabke title.
+
+      ? Attributes :
+      border :
+      cellspacing
+      cellpadding
+      rowspan
+      colspan
+
+  
+  -->
+
+  <table border="2" cellspacing = "2px" cellpadding = "15px" >
+    <caption><b><i>Student table</i></b></caption>
+    <tr>
+      <th>SNO</th>
+      <th>SNAME</th>
+      <th>QUALIFICATION</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Gautam</td>
+      <td>SSC</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Ankit</td>
+      <td>Btech</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Saransh</td>
+      <td>Btech</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Vansh</td>
+      <td>BCA</td>
+    </tr>
+  </table>
+
+  <table border="2px" cellspacing = "2px" cellpadding = "15px" >
+    <caption><b><i>Student table</i></b></caption>
+    <tr>
+      <th>SNO</th>
+      <th>SNAME</th>
+      <th>QUALIFICATION</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Gautam</td>
+      <td>SSC</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Ankit</td>
+      <td rowspan="2" >Btech</td>
+    </tr>
+    <tr> 
+      <td>3</td>
+      <td>Saransh</td>
+      <!-- <td>Btech</td> -->
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Vansh</td>
+      <td>BCA</td>
+    </tr>
+  </table>
+
+
+  <table border="10px" cellspacing = "2px" cellpadding = "15px" >
+    <caption><b><i>Student table</i></b></caption>
+    <tr>
+      <th >SNO</th>
+      <th colspan="2">Details</th>
+      <!-- <th></th> -->
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Gautam</td>
+      <td>SSC</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Ankit</td>
+      <td>Btech</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Saransh</td>
+      <td>Btech</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Vansh</td>
+      <td>BCA</td>
+    </tr>
+  </table>
+
+
+
+  <table border="2px" cellspacing = "2px" cellpadding = "15px"  >
+    <caption><b><i>Student table</i></b></caption>
+    <thead style="color: white; background-color: chocolate;" >
+      <tr>
+        <th>SNO</th>
+        <th>SNAME</th>
+        <th>QUALIFICATION</th>
+      </tr>
+    </thead>
+   <tbody style="color: white; background-color: pink;" >
+    <tr>
+      <td>1</td>
+      <td>Gautam</td>
+      <td>SSC</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Ankit</td>
+      <td rowspan="2" >Btech</td>
+    </tr>
+    <tr> 
+      <td>3</td>
+      <td>Saransh</td>
+      <!-- <td>Btech</td> -->
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Vansh</td>
+      <td>BCA</td>
+    </tr>
+   </tbody>
+    
+
+    <tfoot style="color: white; background-color: chocolate;">
+      
+      <tr>
+        <td colspan="3">This is the end of page</td>
+      </tr>
+    </tfoot>
+  </table>
+
+
+  
+</body>
+</html>

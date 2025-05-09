@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms in html</title>
+
+
+</head>
+<body>
+  <!-- form
+  label
+  input 
+  button 
+  name = variablename
+  
+   -->
+
+<form action="">
+  <label for="usrname"> Name : </label>
+  <input type="text" name = "userName" id="usrname"> <br><br> 
+  <label for="email" >Email : </label>
+  <input type="email" name="userEmail" id="email"><br><br>
+  <label for="mobile">mobilenumber : </label>
+  <input type="number" name="userMobile" id="mobile" ><br><br>
+  <label for="telephone">telephone</label>
+  <input type="tel" id="telephone">
+
+  <label for="">Gender</label>
+  <input type="radio" name="Gender" value="male" id="gender_male">
+  <label for="gender_male">male</label>
+  <input type="radio" name="Gender" value="Female" id="gender_female">
+  <label for="gender_female">female</label>
+  <input type="radio" name="Gender" value="Others" id="gender_others">
+  <label for="gender_others">Others</label><br><br>
+
+
+  <label for=""></label>
+  <input type="checkbox" name="Skills" value="html">HTML
+  <input type="checkbox" name="Skills" value="css"> CSS
+  <input type="checkbox" name="Skills" value="Javascript"> Javascript
+  <input type="checkbox" name="Skills" value="React JS"> React Js <br><br> 
+
+  <label for="">course:</label>
+  <select name="course" id="">
+    <option value="mern">Mern Stack</option>
+    <option value="pfs">Python FullStack</option>
+    <option value="jfs">Java FullStack</option>
+    <option value="da">Data Analytics</option>
+    <option value="ds">Data Science</option>
+    <option >Full stack Testing</option>
+    <option >Next JS</option>
+    <option>Automation Testing</option>
+  </select>
+  <br><br>
+
+  <label for="">Skills</label>
+  <select name="Skills" id="">
+    <optgroup label="Frontend">
+      <option>HTML</option>
+      <option>CSS</option>
+      <option>Javascript</option>
+      <option>React JS</option>
+      <option>TAILWIND</option>
+    </optgroup>
+    <optgroup label="Database">
+      <option>SQL</option>
+      <option>MongoDB</option>
+      <option>Cassandra</option>
+      <option>Postres SQL</option>
+    </optgroup>
+    <optgroup label="Backend tech">
+      <option>Node js</option>
+      <option>Express js</option>
+      <option>Java </option>
+      <option>Python</option>
+    </optgroup>
+  </select> <br><br>
+
+  
+  
+  <button type="submit">Submit</button>
+  <button type="reset"> Reset</button>
+
+
+
+</form>
+
+</body>
+</html>
