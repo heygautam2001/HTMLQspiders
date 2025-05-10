@@ -6,8 +6,33 @@
   <title>Input Tag - Attribute</title>
 </head>
 <body>
+  <form action="">
   <fieldset>
     <legend>Input Tag - Attributes</legend>
-  </fieldset>
+    <!-- 
+    type , name , value , id , height , width , min , max , maxlength , list , src , placeholder , required , readonly, disabled , autofocus , autocomplete , pattern , step ,size
+     -->
+
+     min max : <input type="range" min="0" max="5"><br><br>
+     min max: <input type="number" min="0" max="8"><br><br>
+     minlength maxength: <input type="text" minlength="8" maxlength="16"><br><br>
+     step: <input type="number" step="5"><br><br>
+     size: <input type="text" size="5"><br><br>
+     size : <input type="text" size="50">
+     placeholder : <input type="text" placeholder="Enter your name"> <br><br>
+     placeholder: <input type="text" placeholder="Enter Your Email ">
+    required : <input type="email" required> <br><br>
+    required: <input type="tel" required><br><br>
+    required: <input type="passowrd" required><br><br>
+
+    readonly: <input type="text" name="company-name" value="tata consultancy services" readonly><br><br>
+    disabled: <input type="text" name="company-details" value="tata consultancy services"><br><br>
+    autofocus: <input type="text" placeholder="This is to be your fisrt entry field" size="30" autofocus><br><br>
+    autocomplete: <input type="text" name="userEmail" autocomplete="on">
+ </fieldset>
+ <button type="submit">Submit</button>
+ <button type="reset">Reset</button>
+
+</form>
 </body>
 </html>

@@ -1,24 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> List tag 3 </title>
-</head>
-<body>
-  <p><b>Preceding Text</b></p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List tag 3</title>
+  </head>
+  <body>
+    <p><b>Preceding Text</b></p>
 
-  <ol type="I">
+    <ol type="I">
+      <li>
+        List Item 1
+        <ol type="a">
+          <li>Nested Item 1.1</li>
+          <li>Nested Item 1.2</li>
+        </ol>
+      </li>
 
-     <li>List Item 1
-      <ol type="a">
-        <li>Nested Item 1.1</li>
-        <li>Nested Item 1.2</li>
-      </ol>
-     </li>
-    <!-- <ul style="list-style-type: disc;"></ul> -->
-     <li>List Item 2</li>
-     <li>List Item 3</li>
-  </ol>
-</body>
+      <li>
+        List Item 2
+        <ol type="1">
+          <li>Nested item 2.1</li>
+          <li>
+            Nested item 2.2
+            <ul style="list-style-type: disc">
+              <li>Nested item 2.2.1</li>
+              <li>
+                Nested item 2.2.2
+                <ul>
+                  <li>Nested item 2.2.2.1</li>
+                  <li>Nested item 2.2.2.2</li>
+                </ul>
+              </li>
+              <li>Nested item 2.3</li>
+            </ul>
+          </li>
+        </ol>
+      </li>
+      <li>
+        List Item 3
+        <ul>
+          <li>Nested item 3.1</li>
+          <li>Nested Item 3.2</li>
+          <li>Nested item 3.3</li>
+        </ul>
+      </li>
+    </ol>
+    <ul style="list-style-type: none">
+      <li>
+        COMP 249
+        <ul style="list-style-type: none">
+          <li>Object-Oriented Programming II</li>
+        </ul>
+      </li>
+      <li>
+        Soen287
+        <ul style="list-style-type: none">
+          <li>Web Programmin</li>
+        </ul>
+      </li>
+      <li>This is a <sup>5</sup>test <sub>9 for Assignment 1.</sub></li>
+    </ul>
+  </body>
 </html>
