@@ -1,0 +1,66 @@
+/* main > p {
+  color: white;
+  background-color: crimson;
+} */
+
+/* section p {
+  color: white;
+  background-color: crimson;
+} */
+
+/* section > p {
+  color: white;
+  background-color: crimson;
+} */
+
+/* article p {
+  color: white;
+  background-color: crimson;
+} */
+
+/* body section main p {
+  color: white;
+  background-color: crimson;
+} */
+
+/* body section + p {
+  color: white;
+  background-color: crimson;
+} */
+
+/* section > article + p {
+  color: white;
+  background-color: crimson;
+} */
+
+/* body > p {
+  color: white;
+  background-color:  crimson;
+} */
+
+/* body > p + p {
+  color: white;
+  background-color: purple;
+} */
+
+/* section > article + p {
+
+  color: white;
+  background-color: purple;
+
+} */
+
+/* section > p + article {
+  color: azure;
+  background-color: seagreen;
+} */
+
+/* main > p + p{
+   color: aliceblue;
+   background-color: crimson;
+} */
+
+section ~ p {
+  color: white;
+  background-color: #212121;
+}
