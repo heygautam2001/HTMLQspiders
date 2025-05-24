@@ -1,0 +1,102 @@
+/* Universal selector */
+ /* * {
+  padding: 0;
+  background-color: rgb(50, 49, 50);
+ }
+ */
+
+
+/* 
+SELECTING WITH TAG NAME...
+*/
+
+h3 {
+  color: aliceblue;
+  background-color: seagreen;
+}
+
+p {
+  color: aliceblue;
+  background-color: teal;
+}
+
+/* 
+SELECTING BY GROUPING
+*/
+
+h2,h4{
+  color: antiquewhite;
+  background-color: crimson;
+}
+
+b , i , u{
+  color: azure;
+  background-color: black;
+}
+
+/* pre , h5 , h6 {
+  color: azure;
+  background-color: burlywood;
+} */
+
+/* ID SELECTOR */
+
+#aboutUs {
+  color: white;
+  background-color: seagreen;
+}
+
+#aboutContent {
+  color: purple;
+  background-color: rgb(232, 211, 232);
+}
+
+
+#contactUs {
+  color: aliceblue;
+  background-color: seagreen;
+}
+
+#contactInfo , #connectWithUs{
+  color: aliceblue;
+  background-color: violet;
+}
+
+/* 
+
+CLASS SELECTORS
+
+*/
+
+.container {
+  background-color: rgb(192, 140, 192);
+  align-content: center;
+}
+.unordered {
+  background-color: seagreen;
+  color: white;
+  align-content: center;
+}
+
+.container2 , .list {
+  background-color: seagreen;
+  color: red;
+  align-content: center;
+  text-align: center;
+}
+
+.para1 , #para2 {
+  color: bisque;
+  background-color: rgb(34, 30, 21);
+}
+
+
+
+
+
+
+
+
+
+
+
