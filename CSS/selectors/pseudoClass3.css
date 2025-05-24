@@ -1,0 +1,37 @@
+p{
+  display: none;
+}
+
+input:checked + p {
+  display: block;
+}
+
+/* input :checked ~ p {
+  display: block;
+} */
+
+#mainCheckbox:checked ~ p {
+  display: block;
+  background-color: seagreen;
+}
+
+input:required {
+  background-color: bisque;
+  color: chocolate;
+}
+
+a:link{
+  color: brown;
+}
+a:active{
+  color: forestgreen;
+}
+
+a:visited{
+  color: purple;
+  background-color: olive;
+}
+
+/* a:any-link{
+  color: gold;
+} */

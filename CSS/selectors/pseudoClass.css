@@ -1,0 +1,109 @@
+/* 
+:hover
+:first-child
+:last-child
+:nth-child(number/even / odd /2n / 2n+1 / any expression)
+first-of-type
+last-of-type
+nth-of-type()
+
+*/
+
+/* h1 {
+  color: aliceblue;
+  background-color: #212121;
+}
+
+h1:hover {
+  color: white;
+  background-color: crimson;
+}
+
+#box1{
+  height: 100px;
+  width: 100px;
+  color: blue;
+  background-color: blue;
+}
+
+#box1:hover {
+  height: 150px;
+  width: 400px;
+  background-color: crimson;
+}
+
+section p :first-child {
+  color: white;
+  background-color: teal;
+}
+
+section p :last-child {
+  color: white;
+  background-color: teal;
+}
+
+section p :nth-child(7) {
+  color: white;
+  background-color: brown;
+}
+
+section p :nth-child(2),
+section p :nth-child(3),
+section p :nth-child(4),
+section p :nth-child(8) {
+  color: white;
+  background-color: crimson;
+}
+
+section p :nth-child(even){
+
+}
+
+section p :nth-child(odd){
+
+}
+
+section p :nth-child(2n + 1){
+  color: white;
+  background-color: maroon;
+}
+
+
+ */
+
+
+ 
+ /* #container2 {
+  color: white;
+  background: #000;
+ } */
+
+ /* #container2 :first-child{
+  color: white;
+  background-color: crimson;
+ } */
+
+ #container2 :last-child{
+  color: white;
+  background-color: crimson;
+ }
+
+ #container2 :first-of-type{
+  color: white;
+  background-color: deeppink;
+ }
+
+ #container2 :last-of-type{
+  color: white;
+  background-color:darkblue;
+ }
+
+ #container2 :nth-of-type(3n){
+  color: white;
+  background-color:darkgreen;
+ }
+
+
+
+
+
