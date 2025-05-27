@@ -1,0 +1,26 @@
+
+
+p::before{
+  content: "Mr .";
+}
+
+p::after{
+  content: " , you got selected the companmy with a package of 20lpa";
+}
+
+div::first-line{
+  color: blue;
+}
+div::first-letter{
+  color: red;
+  font-size: 50px;
+}
+
+div::selection{
+  color: brown;
+  background-color: bisque;
+}
+
+li::marker{
+  color: red;
+}

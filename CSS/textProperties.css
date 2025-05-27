@@ -1,0 +1,68 @@
+
+
+p{
+  color: blue;
+  /* This will specify the color of the text/content
+  value: black(default)  , any color
+  */
+
+  text-align: justify;
+  /* it will sopecify the alignment position of the text.
+  values : start(default)  , center , end , justify , left , right
+  */
+
+  /* Syntax: text-decoration : text-deciration-line text-decoration-style text-decoration- color */
+
+  text-decoration-line: underline;
+  /* 
+  it will specify the type of line..
+  values: solid(default) , underline , overline , line-through.
+
+  */
+
+  text-decoration-style: dotted;
+  /* 
+  it wii specify the style of the text decoration line
+  values: solid(default) , dotted , dashed , double , wavy , none
+  */
+
+  text-decoration-color: red;
+  /* 
+  it will specify the color of text-decoration-line
+  values: same as text color(default) , any color
+  */
+
+  /* text-decoration: line-through overline wavy gray; */
+
+  word-spacing: 20px;
+  letter-spacing: 3px;
+
+  line-height: 50px;
+
+  text-wrap: wrap;
+  /* 
+  wrap , nowrap
+  */
+
+  text-transform: capitalize;
+  /* values: uppercase , lowercase , capatilize */
+
+  text-indent: 150px;
+  
+
+  text-shadow: 0px 0px 12px black;
+
+  
+
+
+}
+
+h1{
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  color: blue;
+  text-shadow: 1px 1px 3px crimson;
+}
+
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Tag in HTML</title>
+</head>
+<body>
+
+  <!-- 
+
+  | Attribute     | Description                                                                                                       |
+| ------------- | ----------------------------------------------------------------------------------------------------------------- |
+| `src`         | Specifies the URL of the video file. Optional if `<source>` elements are used.                                    |
+| `controls`    | Adds video controls like play, pause, volume, etc.                                                                |
+| `autoplay`    | Video starts playing automatically when ready.                                                                    |
+| `loop`        | Video will restart automatically after it ends.                                                                   |
+| `muted`       | Mutes the audio of the video.                                                                                     |
+| `poster`      | Specifies an image to be shown while the video is downloading or until the user hits play.                        |
+| `preload`     | Indicates how the browser should load the video when the page loads. Possible values: `auto`, `metadata`, `none`. |
+| `width`       | Sets the width of the video player (in pixels).                                                                   |
+| `height`      | Sets the height of the video player (in pixels).                                                                  |
+| `playsinline` | Tells mobile devices (especially iOS) to play the video inline rather than fullscreen.                            |
+
+  
+   -->
+
+ <video controls src="../sunflower.mp4" height="400px" width="700px" autoplay muted ></video>
+  
+ <video controls src="../sunflower.mp4" height="400px" width="700px" autoplay muted poster="../Html/images/4.avif"></video>
+  
+</body>
+</html> 

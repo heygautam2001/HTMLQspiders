@@ -1,0 +1,57 @@
+/*
+tag
+tag[attribute] - it targets the tag with attribute...
+tag[attribute = value] -- 100% matching
+tag[attribute ^= value] -- starts with
+tag[attribute $= value] -- ends with
+tag[attribute *= value] -- contains  
+
+*/
+
+/* Selecting with tag name */
+
+img {
+  border-width: 2px;
+  border-style: solid;
+  border-color: red;
+}
+
+/* checking the attribute available or not... */
+
+img[height]{
+  border: solid purple;
+}
+
+/* ! Exact matching */
+
+img[alt = "alion"]{
+  height: 500px;
+  width: 500px;
+  border: 4px solid blue;
+}
+
+/* ! starts with */
+
+img[alt ^= "lion"]{
+border: 8px solid crimson;
+}
+
+/*  ! Ends with */
+
+img[alt $= "Lion"]{
+  height: 500px;
+  width: 600px;
+  border: 5px solid seagreen;
+
+}
+
+
+/* Contains/includes */
+
+img[alt *= "Lion"]{
+  height: 500px;
+  width: 600px;
+  border: 5px solid rgb(14, 50, 31);
+}
+
+
