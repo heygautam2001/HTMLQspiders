@@ -1,22 +1,23 @@
 
 
 section{
+  margin: 70px;
   height: 1000px;
-  width: 1500px;
+  width: 1240px;
   border: solid;
 
     background-color: purple;
-    background-image: url(" ");
+    background-image: url("https://images.pexels.com/photos/2422294/pexels-photo-2422294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
 
     background-repeat: repeat;
     background-repeat: repeat-x;
     background-repeat: repeat-y;
     background-repeat: no-repeat;
 
-    background-position: backgroung-position-x backgroung-position-y;
-    background-position-x: left;
+    /* background-position: backgroung-position-x backgroung-position-y; */
+    background-position-x: center;
     /* left , right , center */
-    background-position-y: bottom;
+    background-position-y: center;
     /* top center bottom */
 
     background-position: right center;
@@ -25,8 +26,11 @@ section{
     background-position: center;
 
 
+    background-size: cover;
+    background-size: auto;
     background-size: contain;
     /* contains cover auto */
+
     background-size: 200px 400px;
     background-size: 50%;
     background-size: 100%;
@@ -36,17 +40,15 @@ section{
     background-color: 50%;
 
     /* auto contains cover */
+}
 
+body{
+  background: url("https://images.pexels.com/photos/7524996/pexels-photo-7524996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
 
-    body{
-      background: url() , no-repeat bottom center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
 
-      background-size: cover;
-      background-attachment: fixed;
-      color: white;
+  /* fixed scroll  local */
 
-    }
-
-    
-    
 }
