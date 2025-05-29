@@ -1,0 +1,79 @@
+.box{
+  height: 300px;
+  width: 300px;
+  border: 10px solid red;
+  margin: 20px;
+  padding: 10px;
+  border-style: dashed;
+
+  margin: 10px 20px 30px 40px;
+  margin: 10px 20px 30px;
+  margin: 10px 20px;
+  margin: 10px;
+  /* margin: -10px; */
+}
+
+.box1{
+  height: 200px;
+  width: 200px;
+  border: 5px solid blue;
+}
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#firstNavBar{
+    border: 4px solid red;
+    background-color: brown;
+    color: white;
+
+    padding: 10px;
+}
+
+#firstNavBar button{
+  /* margin 10px 50px */
+  margin: 20px;
+  padding: 10px 70px;
+
+  margin: auto 20px;
+
+}
+
+#oneBox {
+  height: 100px;
+  width: 400px;
+  background-color: crimson;
+
+
+  margin: 10px 0px 0px 0px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 40px ;
+  margin-right: 50px;
+
+  margin-left: 550px;
+
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
+
+#mainNavBar{
+  background-color: aqua;
+  margin-bottom: 40px;
+}
+
+#mainNavBar div{
+  display: inline-block;
+  padding: 10px 89px;
+}
+
+#mainNavBar div:hover {
+  background-color: teal;
+  color: white;
+}
+
