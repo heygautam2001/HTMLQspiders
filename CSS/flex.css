@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+section{
+  height: 500px;
+  width: 800px;
+  background-color: bisque;
+  display: flex;
+
+  /* It is mandatory property , it will convert the normal  container into flex container */
+
+  justify-content: space-around;
+  
+  /* 
+  it will arrange the flex items in x-axis
+  values : start , end , center , flex-start , flex-end , space-around , space-evenly  , space-between
+  */
+
+  align-items: start;
+
+  /* 
+
+  it will arrange the flex-item i y-axis 
+  values : start , center , end , flex-start , flex-end
+
+  */
+
+}
+
+section div{
+  height: 100px;
+  width: 100px;
+  background-color: chocolate;
+  border: solid black;
+  color: white;
+}
+ 
+  section div:nth-child(1){
+  background-color: red;
+  flex-grow: 1;
+
+}
+
+section div:nth-child(2){
+    background-color: blue;
+    /* flex-grow: 20; */
+    flex: 1;
+
+}
+
+section div:nth-child(3){
+     background-color: darkgreen;
+     flex-shrink: 50;
+     flex: 1;
+}
+
+
+section div:nth-child(4){
+background-color: brown;
+flex-grow: 2;
+flex: 1;
+}
+  
+

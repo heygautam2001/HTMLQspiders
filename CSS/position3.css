@@ -1,0 +1,39 @@
+.box{
+  height: 200px;
+  width: 200px;
+  border: solid;
+  background-color: chocolate;
+}
+
+.box1{
+  position: absolute;
+  background-color: red;
+  top: 50px;
+  left: 50px;
+  z-index: 5;
+  
+}
+
+.box2{
+  position: absolute;
+  background-color: aqua;
+  top: 100px;
+  left: 100px;
+  z-index: 2;
+}
+
+.box3{
+  position: absolute;
+  background-color: navy;
+  top: 150px;
+  left: 150px;
+  z-index: 3;
+}
+
+.box4{
+  position: absolute;
+  background-color:darkmagenta;
+  top: 200px;
+  left: 200px;
+  z-index: 4;
+}

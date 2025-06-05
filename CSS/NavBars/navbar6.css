@@ -1,0 +1,77 @@
+*{
+  margin:  0;
+  padding: 0;
+}
+
+.navbar{
+ background-color: rgb(255, 255, 255);
+ margin: 20px 10px;
+ padding: 5px;
+ height: 54px;
+ width: 925;
+ 
+}
+#logo{
+  display: inline-block;
+}
+#logo i{
+  display: inline-block;
+  font-size: x-large;
+}
+
+#logo p{
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(83, 79, 79);
+}
+#menubar{
+  display: inline-block;
+}
+#menubar a{
+  margin: 15px; 
+  text-decoration: none;
+  color: black;
+  font-size: small;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+
+}
+#menubar a:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #313131 ;
+}
+#search{
+  display: inline-block;
+}
+#cart{
+  display: inline-block;
+}
+
+#signin{
+  display: inline-block;
+}
+
+
+
+#search{
+  float: right;
+  margin: 5px;
+}
+
+#cart
+{
+  float: right;
+  margin: 5px;
+}
+
+#signin{
+  float: right;
+  margin: 5px;
+}
+#AllMicrosoft{
+  float: right;
+  margin: 5px;
+}

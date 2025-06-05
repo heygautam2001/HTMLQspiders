@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+section{
+  height: 500px;
+  width: 800px;
+  background-color: bisque;
+
+
+  display: flex;
+/* row - default flex direction.. */
+  flex-direction: row; 
+  /* 
+    it will specify in which direction we have to arrange out flex item.
+    It will decide the main access.
+    values : row(d) , row-reverse , column , column-reverse
+  */
+  flex-wrap: wrap;
+  /* 
+  it will specify whether we have to wrap the flex-items to next or not.
+  values : nowrap(d) , wrap , wrap-reverse
+  */
+
+  align-content: start;
+  /* 
+  it will specify the alignment positions of wrapped flex-items.
+  values : start , center , end
+  
+  */
+
+  /* row-gap: 10px;
+  column-gap: 30px;
+  gap: 10px 30px;
+  gap: 20px; */
+
+  /* it will specify the gap between flex-items */
+
+}
+
+section div{
+  height: 100px;
+  width: 100px;
+  background-color: chocolate;
+  border: solid black;
+  color: white;
+}
+
+section div:nth-child(1){
+ background-color: red;
+ /* flex-grow: 1; */
+ flex: 1;
+}
+
+/* 
+if four 100px flex items are in a 700px container and the flex items have flex-grow factors of 0, 1, 2, and 3, respectively, the total main size of the four items is 400px, meaning there is 300px of positive free space to be distributed. The sum of the four grow factors (0 + 1 + 2 + 3 = 6) is equal to six. Therefore, each grow factor is equal to 50px ((300px / 6 ). Each flex item is given 50px of free space multiplied by its flex-grow factor — so 0, 50px, 100px, and 150px respectively. The total flex item sizes become 100px, 150px, 200px, and 250px, respectively.
+*/
+
+section div:nth-child(2){
+ background-color: blue; 
+ /* flex-grow: 2; */
+ flex: 1;
+}
+section div:nth-child(3){
+  background-color: darkgreen;
+  /* flex-grow: 3; */
+  flex: 1;
+}
+section div:nth-child(4){
+  background-color: brown;
+  /* flex-grow: 5; */
+  flex: 1;
+}
+
+
+/* 
+The flex-shrink CSS property sets the flex shrink factor of a flex item. If the size of all flex items is larger than the flex container, the flex items can shrink to fit according to their flex-shrink value. Each flex line's negative free space is distributed between the line's flex items that have a flex-shrink value greater than 0.
+
+
+*/

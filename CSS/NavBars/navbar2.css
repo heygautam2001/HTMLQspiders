@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: seagreen;
+}
+
+#navbar {
+  margin: 20px;
+  background-color:  aliceblue;
+  border-radius: 5px;
+  text-align: end;
+  
+}
+
+.logo{
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: 900;
+  font-size: larger;
+}
+
+.logo span{
+  color: darkgreen;
+}
+
+.menu{
+
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  text-transform: uppercase;
+  text-align: right;
+  
+}
+
+.menu:hover{
+  color: white;
+  background-color: #213132;
+  border-radius: 4px;
+}

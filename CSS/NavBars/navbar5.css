@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: #70b88a;
+}
+.navbar{
+  margin: 20px 10px;
+  border-radius: 5px;
+  background-color: rgb(225, 222, 218);
+  text-align: center;
+}
+
+.logo{
+  float: left;
+  margin: 20px 10px;
+  font-size: xx-large;
+  font-weight: 700;
+
+}
+
+
+
+.logo span{
+  color: crimson;
+}
+
+.logo span:hover{
+  color: black;
+  cursor: pointer;
+}
+.menu{
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.menu:hover{
+  color: seagreen;
+  cursor: pointer;
+}
+
+input[type = 'search'] {
+  float: right;
+  margin:20px 10px;
+  padding: 5px;
+  height: 30px;
+  width: 200px;
+}
+
+
+
+

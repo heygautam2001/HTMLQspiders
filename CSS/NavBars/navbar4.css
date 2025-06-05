@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color:cadetblue;
+}
+
+.navbar {
+  background-color: aliceblue;
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
+
+}
+
+#logo{
+  float: left;
+  margin: 10px;
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+#logo span{
+  color: darkcyan;
+}
+
+.menu{
+  display: inline-block;
+  margin: 20px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: rgb(68, 66, 66);
+}
+
+.menu:hover{
+ 
+  /* background-color: #393a3a; */
+  border-radius: 5px;
+  text-decoration: underline;
+  text-underline-position: over;
+  
+}
+
+.btn{
+ float: right; 
+ margin-top: 10px;
+ margin-right: 20px;
+}
+.btn button {
+  margin: 5px;
+  padding: 5px 25px;
+
+}
+
