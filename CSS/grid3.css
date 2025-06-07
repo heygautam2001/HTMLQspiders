@@ -35,12 +35,14 @@ section div{
 section div:nth-child(1){
    background-color: #ebabab;
    color:rgb(232, 227, 228);
-
+    
    grid-row-start: 1;
    grid-row-end: 2;
 
    grid-column-start: 1;
    grid-column-end: 4;
+   align-self: end;
+   height: 50px;
 }
 
 section div:nth-child(2){
@@ -51,6 +53,7 @@ section div:nth-child(2){
    grid-column-end: 4;
    height: 50px;
    width: 100%;
+   align-self: flex-start;
   
 }
 section div:nth-child(3){

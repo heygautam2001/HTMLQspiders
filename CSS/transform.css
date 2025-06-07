@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box1{
+  height: 200px;
+  width: 200px;
+  background-color: crimson;
+  border: 2px solid re;
+
+
+  transform: translateX(200px);
+  transform: translateY(300px);
+  transform: translate(200px);
+  transform: translate(50px , 200px);
+
+  margin: 100px , auto;
+
+  transform: scaleX(2);
+  transform: scaleY(3);
+  transform: scale(0.5);
+  transform: scale(1);
+  transform: scale(0.1);
+
+
+
+  
+
+}
+
+.box{
+  height: 200px;
+  width: 200px;
+  background-color: crimson;
+  border: solid red;
+
+
+  margin: 50px auto;
+  background-image: url("https://images.pexels.com/photos/31588354/pexels-photo-31588354/free-photo-of-elegant-summer-picnic-with-baguettes-and-strawberries.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+
+  transform: skewX(0deg);
+  transform: skewY(0deg);
+  transform: skew(0deg);
+
+  transform: rotate(100deg);
+  transform: rotate(-100);
+  transform: rotate(0deg);
+
+
+
+
+}
+
+.box:hover{
+  transform: skew(-5deg);
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
