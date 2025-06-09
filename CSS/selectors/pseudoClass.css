@@ -32,17 +32,17 @@ h1:hover {
   background-color: crimson;
 }
 
-section p :first-child {
+section p:first-child {
   color: white;
   background-color: teal;
 }
 
-section p :last-child {
+section p:last-child {
   color: white;
   background-color: teal;
 }
 
-section p :nth-child(7) {
+section p:nth-child(7) {
   color: white;
   background-color: brown;
 }
@@ -55,15 +55,15 @@ section p :nth-child(8) {
   background-color: crimson;
 }
 
-section p :nth-child(even){
+section p:nth-child(even){
 
 }
 
-section p :nth-child(odd){
+section p:nth-child(odd){
 
 }
 
-section p :nth-child(2n + 1){
+section p:nth-child(2n + 1){
   color: white;
   background-color: maroon;
 }
@@ -83,22 +83,22 @@ section p :nth-child(2n + 1){
   background-color: crimson;
  } */
 
- #container2 :last-child{
+ #container2:last-child{
   color: white;
   background-color: crimson;
  }
 
- #container2 :first-of-type{
+ #container2:first-of-type{
   color: white;
   background-color: deeppink;
  }
 
- #container2 :last-of-type{
+ #container2:last-of-type{
   color: white;
   background-color:darkblue;
  }
 
- #container2 :nth-of-type(3n){
+ #container2:nth-of-type(3n){
   color: white;
   background-color:darkgreen;
  }
