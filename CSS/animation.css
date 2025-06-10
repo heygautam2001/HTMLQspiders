@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+#box{
+  height: 200px;
+  width: 200px;
+  background-color: crimson;
+  /* Example 1 : */
+  /* animation-name: ColorChange;
+  animation-duration: 10s;
+  animation-delay: ;, 
+  animation-timing-function: ; */
+
+  /* Example 2 */
+  animation-name: positionChange;
+  animation-duration: 5s;
+  animation-delay:2s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+
+
+  transform: translate(0px , 0px );
+  background:url("");
+  background-size: cover;
+  
+  
+
+}
+
+
+/* style set 1 */
+
+@keyframes colorChange {
+  from{
+background-color: crimson;
+  }
+  50%{
+    background-color: green;
+
+  }
+  75%{
+    background-color: aqua;
+
+  }
+  to{
+    background-color: blue;
+
+  }  
+}
+
+/* Style set 2 */
+
+@keyframes positionChange {
+  0% {
+    transform: translate(0px , 0px);
+    background-color: crimson;
+    background: url("https://cdn.pixabay.com/photo/2022/03/24/15/46/woman-7089304_1280.jpg") no-repeat center;
+    background-size: cover;
+    border-radius: 0%;
+
+  }
+  25% {
+    transform: translate(1020px , 0px);
+    background-color: blue;
+    background: url("https://cdn.pixabay.com/photo/2022/11/27/13/22/tree-7619791_1280.jpg") no-repeat center;
+    background-size: cover;
+    border-radius: 50%;
+
+  }
+  50%{
+
+    transform: translate(0px , 1020px);
+    background-color: blue;
+    background: url("https://cdn.pixabay.com/photo/2022/01/22/13/14/baby-6957222_1280.jpg") no-repeat center;
+    background-size: cover;
+    border-radius: 50%;
+
+
+  }
+  75%{
+    transform: translate(0px , 390px);
+    background-color: purple;
+    background: url("https://cdn.pixabay.com/photo/2021/10/07/00/48/boat-6686952_1280.jpg") no-repeat center;
+    background-size: cover;
+    border-radius: 50%;
+
+  }
+  100%{
+    transform: translate(0px , 0px);
+    background-color: crimson;
+    background: url("https://cdn.pixabay.com/photo/2025/02/12/10/55/cat-9401282_1280.jpg") no-repeat center;
+    background-size: cover;
+    border-radius: 0%;
+
+  }
+  
+}

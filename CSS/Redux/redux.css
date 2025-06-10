@@ -16,6 +16,9 @@ nav{
   justify-content: space-around;
   align-items: center;
   gap: 0px;
+  position: sticky;
+  top: 0px;
+  
   
 }
 

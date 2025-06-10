@@ -1,0 +1,47 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#mainNavBar{
+  border: solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  div {
+    border: solid blue;
+    flex: 1 ;
+    min-width: 80px;
+    max-width: 120px;
+
+    width: fit-content;
+    padding: 10px;
+  }
+}
+
+.container{
+border: 5px solid red;
+margin: 50px;
+
+height: 200px;
+overflow: auto;
+overflow: hidden;
+overflow: scroll;
+overflow: visible;
+overflow: scroll;
+}
+
+.container1{
+  opacity: 1;
+
+}
+.container2{
+  opacity: 0.8;
+}
+
+.container3{
+  opacity: 0.5;
+}
+

@@ -1,0 +1,42 @@
+/* 
+Transition: 
+transition-property:
+transition-duration: 
+transition-delay: 
+transition-timing-function: 
+
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#box{
+  margin: 50px;
+  height: 300px;
+  width: 300px;
+  border: solid red;
+  background-color: red;
+
+  transition-property: all; /*all - all properties */
+  transition-duration: 5s; /* 0s */
+  transition-delay: 2s; /* 0s */
+  transition-timing-function: ease;
+  transition-timing-function: ease-in;
+  transition-timing-function: ease-out;
+  transition-timing-function: ease-in-out;
+  transition-timing-function: step-start;
+  transition-timing-function: step-end;
+  transition-timing-function: steps(10 , end);
+
+
+}
+
+#box:hover{
+  height: 250px;
+  width: 350px;
+  border-radius: 50%;
+  background-color: blue;
+}
