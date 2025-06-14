@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#mainContainer{
+  background-color: teal;
+  color: white;
+
+  display: flex;
+  align-items: center;
+}
+
+#mainContainer div{
+  flex:1;
+  border: 2px solid white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+
+@media screen and (0px <= width <= 500px) {
+  #mainContainer{
+    flex-direction: column;
+
+    div{
+      width: 100%;
+    }
+  }
+}

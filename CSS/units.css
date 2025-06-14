@@ -66,3 +66,36 @@
   width: 50%;
 
 }
+
+/* Example 2 : */
+html{
+  font-size: 50px;
+}
+
+#container2 {
+  font-size: 30px;
+  font-size: 4vw;
+
+  font-size: 1rem; 
+  /* it will points to the html font size */
+}
+
+#container2 article {
+  font-size: 0.5em;
+  font-size: 0.5rem;
+
+  font-size: 1em; 
+  /* it will points to the parent element font size */
+  font-size: 25px;
+
+}
+
+#container2 article div{
+ font-size: 0.5em;
+ /* font-size: 1rem;  */
+ /* it will points to the font size of html */
+}
+
+#container article div p{
+  font-size: 0.5em;
+}

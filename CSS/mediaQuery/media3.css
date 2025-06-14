@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media(orientation: landscape){
+  h1::after{
+    content: "landscape";
+  }
+}
+
+@media(orientation : portrait){
+  h1::after {
+    content: "portrait";
+  }
+}
+
+#gridContainer{
+  display: grid;
+  height: 800px;
+
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(4,1fr);
+  gap: 10px;
+}
+
+#gridContainer div{
+  border: solid gray;
+  border-radius: 10px;
+}
+
+@media screen and (800px <= width){
+  #gridContainer {
+    grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(4,1fr);
+  }
+}
+
+@media screen and (400px <= width <= 800px){
+  #gridContainer {
+    grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(5,1fr);
+  }
+}
+
+
+@media screen and ( width <= 400 ){
+  #gridContainer {
+    grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(10,1fr);
+  }
+}

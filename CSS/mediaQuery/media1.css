@@ -1,0 +1,145 @@
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box ;
+}
+/* Example 1 ========= */
+/* 
+media type
+all
+screen
+print
+*/
+
+/* @media print
+{
+  h1{
+    color: crimson;
+  }
+
+  p{
+    color: blue;
+  }
+
+
+} */
+
+/* @media screen {
+
+  h1{
+       color: crimson;
+  }
+
+  p{
+  color: blue;
+  }
+  
+} */
+
+/* @media screen {
+  body{
+    padding: 50px;
+
+  }
+  h1{
+    color: white;
+    background-color: crimson;
+    padding: 10px;
+  }
+
+  p{
+    padding: 10px;
+    margin-top: 20px ;
+    color: white;
+    background-color: brown;
+  }
+} */
+
+/* @media all {
+  body{
+   background-color: bisque;
+   color: white;
+  }
+  h1{
+    color: black;
+    background-color: yellow;
+    padding: 10px;
+
+  }
+  p{
+     color: darkgreen;
+  }
+} */
+
+
+/* Example 2 case 1 */
+ /* @media screen and (min-width : 0px) and (max-width : 400px){
+  #viewmode::after{
+    content: "mobile";
+  }
+
+  body{
+    background-color: bisque;
+
+  }
+}
+
+@media screen and (min-width : 400px) and (max-width : 800px){
+  #viewmode::after{
+    content: "Tablet";
+  }
+
+  body{
+    background-color: chocolate;
+
+  }
+}
+
+@media screen and (min-width : 800px){
+  #viewmode::after{
+    content: "laptop";
+  }
+
+  body{
+    background-color:brown;
+
+
+  }
+}  */
+
+
+/* ====== case 2 */
+
+@media screen and (0 <= width <= 400){
+  #viewmode::after{
+    content: "mobile";
+  }
+
+  body{
+    background-color: bisque;
+
+  }
+}
+
+
+@media screen and (400 <= width <= 800){
+  #viewmode::after{
+    content: "mobile";
+  }
+
+  body{
+    background-color: bisque;
+
+  }
+}
+
+@media screen and ( width >= 800){
+  #viewmode::after{
+    content: "mobile";
+  }
+
+  body{
+    background-color: bisque;
+
+  }
+}
