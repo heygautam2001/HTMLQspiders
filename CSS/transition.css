@@ -29,7 +29,7 @@ transition-timing-function:
   transition-timing-function: ease-in-out;
   transition-timing-function: step-start;
   transition-timing-function: step-end;
-  transition-timing-function: steps(10 , end);
+  transition-timing-function: steps(100 , end);
 
 
 }

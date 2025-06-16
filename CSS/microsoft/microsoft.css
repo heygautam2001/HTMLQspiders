@@ -1,68 +1,319 @@
 /* nav-bar */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 13px;
+  
 }
 
-#mainNavBar{
+#mainNavBar {
   width: 100vw;
-  height: 54px;
-  /* border: 2px solid red; */
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-bottom: 2px;
-  background-color: white;
-}
-#logo img{
-  width: 108px;
-  height: 23px;
-}
-.nav-Container{
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px;
-  
-
+  /* padding-left: 40px;
+  padding-right: 40px; */
+  margin-bottom: 2px;
+  background-color: white;
 }
 
-#nav-menu{
+/* right items */
+
+.nav-Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  
+}
+
+#logo img {
+  margin-top: 4px;
+  width: 108px;
+  height: 26px;
+}
+
+#nav-menu {
   display: flex;
   align-items: center;
   margin-top: 10px;
-  width: 871px;
-  height: 49px;
-  
 }
 
-.menu-items{
+.menu-items {
   display: flex;
-  gap: 20px;
-  
+  gap: 25px;
+  float: left;
 }
 
-.menu-items .item-list{
+.menu-items .item-list {
   list-style: none;
-
-  
+  color: #262626;
 }
 
-
-
-
-
-
-.left-items{
+.right-items{
   display: flex;
-  margin-left: 400px;
+  gap: 30px;
+}
+
+/* left items */
+
+.left-items {
+  display: flex;
   align-self: flex-end;
-  gap: 20px;
-  width:400px;
- 
+  gap: 5px;
+  color: #262626;
+  
+}
+.left-items span{
+  padding: 14px;
+}
+.search i{
+  padding: 14px;
+}
+.left-items a i{
+  color:#262626;
+  /* width: 4px; */
+  padding: 14px;
+  
+ }
+
+ .login-logout {
+  border-color: #262626;
+  border-style: solid;
+  border-radius: 50%;
+  padding: 14px;
+ }
+
+ /* Heading-section */
+
+ .heading{
+  width: 100vw;
+  height: 59px;
+  
+}
+
+.heading section{
+   width: 100vw;
+   height: 59px;
+   background-color: #0067b8;
+   align-content: center;
+   text-align: center;
+}
+.heading section a{
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+/* Hero section */
+
+.hero-sec-container{
+  height: 600px;
+  width: 100vw;
+ display: flex;
+ justify-content: flex-end;
+ background-image: url("./microsoftTab.avif");
+  
+}
+
+.hero-section{
+  width: 523.33px;
+  height: 353.334px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-right: 80px;
+
+
+ }
+
+.hero-container{
+  width: 527.27px;
+  height: 400px;
+  padding: 40px;
+  align-content:center;
+}
+
+.hero-container span{
+  width: 60px;
+  height: 28px;
+  background-color: #ffb900;
+  font-size: 16px;
+  padding: 6px 12px;
+  margin: 0px 0px 8px;
+  margin-top: 8px;
+}
+
+.info h1{
+  font-size:30px ;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px 0px 16px;
+  margin-top: 8px;
+}
+
+.description{
+  font-size: 16px;
+  margin: 0px 0px 24px;
+  line-height: 1.5;
+}
+
+.button1{
+  width: 340px;
+  height: 50px;
+  background-color: #0067b8;
+  align-content: center;
+  text-align: center;
+}
+
+.button1 a{
+  /* width: 312px;
+  height: 40px; */
+  background-color: #0067b8;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
   
   
 }
+
+.hero-sliders{
+ height: 54px;
+ width: 100vw;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 35px;
+ }
+
+ .hero-sliders i:nth-child(1){
+  padding: 5px;
+  border: solid black;
+  border-radius: 50%;
+  /* font-size: large; */
+  
+ }
+
+ .hero-section i:nth-child(2){
+  font-size: large;
+ }
+
+ /* service sec */
+
+ .service-sec{
+  width: 100vw;
+  height: 210px;
+  margin-top: 50px;
+ }
+ .service-sec-container{
+  width: 100%;
+  height: 210px;
+ }
+
+ .service-content{
+  
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* gap: 100px; */
+  column-gap: 50px;
+  flex: 1;
+ }
+
+ .service-content li{
+  height: 72px;
+  width: 153px;
+  margin: 16px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .service-content li a{
+  font-size: 16px;
+  text-wrap: nowrap;
+  color: #0067b8;
+ }
+
+  .service-content li img{
+    height: 40px;
+    width: 40px;
+}
+
+
+/* =======================gaming xbox advertisemnt section   ----=================== */
+.x-box-container{
+  margin: 69px;
+  
+  height: 600px;
+  /* width: 100vw; */
+ display: flex;
+ justify-content: flex-start;
+ background-image: url("./Xbox-Controller-Valentine-Hero-2120x1190_VP4-1260x600.avif");
+  
+}
+
+.xbox-section{
+  width: 523.33px;
+  height: 353.334px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 70px;
+
+
+ }
+
+.xbox-container{
+  width: 527.27px;
+  height: 400px;
+  padding: 40px;
+  align-content:center;
+}
+
+
+
+.info-xbox h1{
+  font-size:30px ;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px 0px 16px;
+  margin-top: 8px;
+}
+
+.description{
+  font-size: 16px;
+  margin: 0px 0px 24px;
+  line-height: 1.5;
+}
+
+.button1{
+  width: 340px;
+  height: 50px;
+  background-color: #0067b8;
+  align-content: center;
+  text-align: center;
+}
+
+.button1 a{
+  /* width: 312px;
+  height: 40px; */
+  background-color: #0067b8;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  
+  
+}
+
+
+
 
