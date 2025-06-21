@@ -1,4 +1,5 @@
 // var
+
 // declaration 
 var a;
 console.log(a);
@@ -42,5 +43,6 @@ console.log(x);
 
 const name = 'hello';
 console.log(name);
+
 
 
