@@ -1,7 +1,7 @@
 // ! Function
 
 // !Named functionst
-
+// ⁡⁣⁣⁢
 //Case 1
 
 console.log("Start");
@@ -58,7 +58,7 @@ if(true){
 
 console.log(r);
 
-// Anonymous Function
+// ! Anonymous Function
 
 /**
  * -Here we should not use function identifier
@@ -69,7 +69,7 @@ console.log(r);
 
 // ?Case 1:
 
-console.log("srrat");
+console.log("start");
 
 console.log(a);
 var a =10;
