@@ -119,8 +119,8 @@ let user2 = new Bank(8000);
 console.log(user2)
 console.log(user1.showBalance);
 console.log(user1.showBalance()); // 8000
-console.log(this.deposit);
-console.log(this.deposit(200));
+console.log(user2.deposit);
+console.log(user2.deposit(200));
 console.log();
 
 
@@ -149,7 +149,9 @@ class Employee {
 
 let e1 = new Employee("Shivam" , "Frontend Developer" , 50000);
 console.log(e1);
-console.log(g1.getEmployeeName);
+console.log(e1.getEmployeeName);
 console.log(e1.getEmployeeName());
 console.log(e1.getSalary());
 console.log(e1.Incentives(5000));
+
+
