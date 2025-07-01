@@ -86,3 +86,5 @@ console.table({
   friend : "Priyanshi",
   issue : "Professor"
 });
+
+
