@@ -9,11 +9,12 @@
   height: 200px;
   width: 200px;
   background-color: crimson;
-  /* Example 1 : */
+  /* Example 1 :  */
+
   /* animation-name: ColorChange;
   animation-duration: 10s;
-  animation-delay: ;, 
-  animation-timing-function: ; */
+  animation-delay: 2s ;
+  animation-timing-function: ease-in-out ; */
 
   /* Example 2 */
   animation-name: positionChange;
@@ -26,10 +27,8 @@
   transform: translate(0px , 0px );
   background:url("");
   background-size: cover;
-  
-  
-
 }
+
 
 
 /* style set 1 */

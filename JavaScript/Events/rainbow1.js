@@ -15,7 +15,7 @@ height : 100vh;
 `
 
 for (let color of colors) {
-  console.log(color);
+  // console.log(color);
   let div = document.createElement('div');
   console.log(div);
   section.append(div)

@@ -75,9 +75,3 @@ nav.style.removeProperty("border");
 nav.style.removeProperty('font-weight')
 
 // nav.style.cssText = ``;
-
-
-
-
-
-
