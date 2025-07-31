@@ -108,5 +108,7 @@ console.log(allFunctions.default);
 
 
 
+console.log(NaN == NaN)
+console.log(undefined == NaN);
 
 
