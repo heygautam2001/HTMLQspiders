@@ -11,12 +11,13 @@
   background-color: crimson;
   /* Example 1 :  */
 
-  /* animation-name: ColorChange;
+  /* animation-name: colorChange;
   animation-duration: 10s;
-  animation-delay: 2s ;
+  animation-delay: 0s ;
   animation-timing-function: ease-in-out ; */
 
   /* Example 2 */
+
   animation-name: positionChange;
   animation-duration: 5s;
   animation-delay:2s;
@@ -24,9 +25,9 @@
   animation-direction: normal;
 
 
-  transform: translate(0px , 0px );
-  background:url("");
-  background-size: cover;
+  /* transform: translate(0px , 0px );
+  background:url("../CSS/mediaQuery/55159-1080x1920-iphone-1080p-marvel-heroes-wallpaper-photo.jpg");
+  background-size: cover; */
 }
 
 
@@ -55,7 +56,7 @@ background-color: crimson;
 
 @keyframes positionChange {
   0% {
-    transform: translate(0px , 0px);
+    transform: translate(1080px , 0px);
     background-color: crimson;
     background: url("https://cdn.pixabay.com/photo/2022/03/24/15/46/woman-7089304_1280.jpg") no-repeat center;
     background-size: cover;
@@ -63,7 +64,7 @@ background-color: crimson;
 
   }
   25% {
-    transform: translate(1020px , 0px);
+    transform: translate(0px , 1080px);
     background-color: blue;
     background: url("https://cdn.pixabay.com/photo/2022/11/27/13/22/tree-7619791_1280.jpg") no-repeat center;
     background-size: cover;
@@ -81,7 +82,7 @@ background-color: crimson;
 
   }
   75%{
-    transform: translate(0px , 390px);
+    transform: translate(1080px , 0px);
     background-color: purple;
     background: url("https://cdn.pixabay.com/photo/2021/10/07/00/48/boat-6686952_1280.jpg") no-repeat center;
     background-size: cover;

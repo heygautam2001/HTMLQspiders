@@ -5,7 +5,7 @@
  * - Its a collection of object that allows javaScript to interact with the browser
  * Everything in JavaScript is an object..
  * 
- * BOM represented by a keuyword "window"
+ * BOM represented by a keyword "window"
  * 
  */
 

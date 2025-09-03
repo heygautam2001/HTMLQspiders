@@ -8,7 +8,7 @@
 - to maintains the state of a component
 
 ? when to use:
-- to create dynamic data in a compponent we have to use it.
+- to create dynamic data in a component we have to use it.
 
 ? How to use:
 - Import useState hook from react.
@@ -25,6 +25,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import React from 'react';
 
 
 function App() {
@@ -74,7 +75,7 @@ export default App
 */
 
 // ? case 1.1 - on number
-/*
+
 
 import { useState } from "react";
 
@@ -84,25 +85,38 @@ const App = () => {
   let initialValue1 = 0;
   let initialValue2 = 0;
   let[counter1 , setCounter1] = useState(initialValue1);
-  let[counter2, setCounter2] = useState(initialValue2);
+  // let[counter2, setCounter2] = useState(initialValue2);
 
   return (
    <>
    <h1>I am usestate hook - number</h1>
+   
    <h2>Counter : {counter1}</h2>
-   <button onClick={()=>setCounter1(counter1 - 5)}>Decrement5</button>
-   <button onClick={()=>setCounter1(counter1 - 1)}>Decrement</button>
-   <button onClick={()=>setCounter1(initialValue1)}>Reset</button>
+
+
+   {/* <button onClick={()=>setCounter1(counter1 - 5)}>Decrement5</button>
+   <button onClick={()=>setCounter1(counter1 - 1)}>Decrement</button> */}
+   {/* <button onClick={()=>setCounter1(initialValue1)}>Reset</button> */}
    <button onClick={()=>setCounter1(counter1 + 1)}>Increment</button>
-   <button onClick={()=>setCounter1(counter1 + 5)}>Increment5</button>
+   
+   <div>
+    <h1>
+      {counter1 == 5 && "🐱"}
+      {counter1 == 10 && "🐵"}
+      {counter1 == 15 && "🐯"}
+      {counter1 == 20 && "🦁"}
+    </h1>
+   </div>
+  
+   {/* <button onClick={()=>setCounter1(counter1 + 5)}>Increment5</button> */}
 
-   <h2>Counter : {counter2} </h2>
+   {/* <h2>Counter : {counter2} </h2> */}
 
-   <button onClick={()=>setCounter2(counter2 - 5)}>Decrement5</button>
+   {/* <button onClick={()=>setCounter2(counter2 - 5)}>Decrement5</button>
    <button onClick={()=>setCounter2(counter2 - 1)}>Decrement</button>
    <button onClick={()=>setCounter2(initialValue2)}>Reset</button>
    <button onClick={()=>setCounter2(counter2 + 1)}>Increment</button>
-   <button onClick={()=>setCounter2(counter2 + 5)}>Increment5</button>
+   <button onClick={()=>setCounter2(counter2 + 5)}>Increment5</button> */}
 
    
    
@@ -111,10 +125,11 @@ const App = () => {
 }
 
 export default App
-*/
+
 
 //? Case 2 : Using Strings
-// ? Case 3 : Using Boolean
+
+//? Case 3 : Using Boolean
 
 
 /*
@@ -140,6 +155,7 @@ const App = () => {
 
 
     <h2>
+
       <input type= {showPassword ? "text" : "password"} />
       <button onMouseDown={()=>{setShowPassword(true)}} onMouseUp={()=>{setShowPassword(false)}}>
         {showPassword ? "Hide password" : "Show Password"}
@@ -155,7 +171,6 @@ const App = () => {
 
 export default App;
 
-
 */
 
 
@@ -164,7 +179,7 @@ export default App;
 
 
 
-// ! +++++ Task on usestste() Hook ++++++++++
+// ! +++++ Task on usestate() Hook ++++++++++
 
 /*
 
@@ -501,6 +516,8 @@ consumes that context.
  ~ Step 2: Provider
  ~ Step 3: consumer
 */
+
+/*
 import asset_data from "./assets/assets_data";
 import { createContext } from "react";
 import ChildComponentA from "./ChildComponentA"
@@ -537,16 +554,11 @@ const App = () => {
 
 export default App
 
+*/
+
+// console.log(asset_data);
 
 
-
-
-
-
-
-
-
-console.log(asset_data);
 // ! ======= HOC(Higher Order Component ) ==================
 /*
 import ChildComponentA from "./ChildComponentA";

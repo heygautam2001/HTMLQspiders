@@ -20,46 +20,44 @@ function functionName(params){
 
 
 function student(sname , course , age , ratings){
-  console.log(sname);
-  console.log(course);
-  console.log(age);
-  console.log(ratings);
-
+  // console.log(sname);
+  // console.log(course);
+  // console.log(age);
+  // console.log(ratings);
   // this ====== s1
   // s1.sname ========  this.sname;
-
-
   this.sname = sname;
   this.age = age;
   this.course = course;
   this.ratings = ratings;
-  this.ratings = ratings == undefined ? "remoker" : ratings;
+  this.ratings = ratings == undefined ? "remoke" : ratings;
   this["address"] = "Delhi";
   
-  console.log(this);
+  //  console.log(this);
   // "this" keyword will point to the current instance
 }
 
 
 let s1 = new student("Mana" , 22 , "Mern stack" , "1")
-console.log(s1);
-s1.name = "Aman";
+// console.log(s1);
+// s1.sname = "Aman";
+// console.log(s1);
 
 let s2 = new student("Gautam" , 24 , "Javafull stack" , "1")
-console.log(s2);
-s1.name = "Gautam";
+// console.log(s2);
+// s1.name = "Gautam";
 
 
 let s3 = new student("Govind" , 22 , "Javafull-stack" , "4")
-console.log(s3);
-s1.name = "Gautam";
+// console.log(s3);
+// s1.name = "Gautam";
 
 
 // ~ case 2
 
 function student1(sname , age , course , joiningMonth)
 {
-  console.log(this);
+  // console.log(this);
   this.sname = sname;
   this.age = age;
   this.joiningMonth = joiningMonth;
@@ -73,20 +71,21 @@ function student1(sname , age , course , joiningMonth)
   return `Your joining Month is ${this.joiningMonth}`
  }
 
- console.log(this);
+//  console.log(this);
 
 }
 
 let s6 = new student1("harsh" , 20 ,"MERN Stack" , "May");
-console.log(s6.sname); // harsh
-console.log(s6.course); // 20
-console.log(s6.getName); // whole function
-console.log(s6.getName());
+// console.log("name"+s6.sname); // harsh
+// console.log("age "+s6.age); // 20
+// console.log("course "+s6.course); // undefined...
+// console.log(s6.getName); // whole function
+// console.log(s6.getName());
 
 
 let s4= new student1("Rohit" , 22 , "Java Full-stack" , "March")
-console.log(s4.getJoiningMonth);
-console.log(s4.getJoiningMonth());
+// console.log(s4.getJoiningMonth);
+// console.log(s4.getJoiningMonth());
 
 let s5 = new student1("Mohit" , 24 , "Python Full-stack" ,"June");
 
@@ -113,15 +112,15 @@ function Bank(balance){
 }
 
 let user1 = new Bank(8000);
-console.log(user1);
+// console.log(user1);
 
 let user2 = new Bank(8000);
-console.log(user2)
-console.log(user1.showBalance);
-console.log(user1.showBalance()); // 8000
-console.log(user2.deposit);
-console.log(user2.deposit(200));
-console.log();
+// console.log(user2)
+// console.log(user1.showBalance);
+// console.log(user1.showBalance()); // 8000
+// console.log(user2.deposit);
+// console.log(user2.deposit(200));
+// console.log();
 
 
 
@@ -148,10 +147,10 @@ class Employee {
 }
 
 let e1 = new Employee("Shivam" , "Frontend Developer" , 50000);
-console.log(e1);
-console.log(e1.getEmployeeName);
-console.log(e1.getEmployeeName());
-console.log(e1.getSalary());
-console.log(e1.Incentives(5000));
+// console.log(e1);
+// console.log(e1.getEmployeeName);
+// console.log(e1.getEmployeeName());
+// console.log(e1.getSalary());
+//  console.log(e1.Incentives(5000));
 
 

@@ -1,6 +1,6 @@
 // ! Function
 
-// !Named functionst
+// ! Named function
 // ⁡⁣⁣⁢
 //Case 1
 

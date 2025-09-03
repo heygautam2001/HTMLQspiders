@@ -3,12 +3,12 @@
  - A react component is a logical block of code.
  - It is nothing bu t a javaScript funtion.
  - component name should start with upperCase letter only
- - we can create compionent in two ways
+ - we can create component in two ways
  1. Class Based Component
  2. Function Based Component.
 
- - we cannit use component as it is , we have to call as an element ...
- - element should be closed only , either by pairec tag or self closing tag.
+ - we cannot use component as it is , we have to call as an element ...
+ - element should be closed only , either by paired tag or self closing tag.
  closing tag .
  - Ex: <App></App>
  - Ex : </App>
@@ -95,7 +95,7 @@ export default App;
 
 // Rule 1;
 // we should not return more than one element at a time.
-// we have use a parent element or React.Fragmenet or <> </>
+// we have use a parent element or React.Fragment or <> </>
 
 // case 1:
 /*
@@ -140,7 +140,7 @@ const App=()=>{
 export default App;
 */
 // Rule 2:
-// JSx Element  are case senstive
+// JSX Element  are case senstive
 //we have to write in lowerCase sonly
 //ir we use uppercase for a tag ,it'll treat as a component.
 /*

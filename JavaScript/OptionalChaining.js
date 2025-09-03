@@ -13,27 +13,31 @@ var obj = {
 
 };
 
-console.log(obj);
-console.log(obj.name);
+// console.log(obj);
+// console.log(obj.name);
 
-if(obj){
-  if(obj.name){
-    if(obj.name.fname){
-      console.log(obj.name.fname);
-    }else{
-      console.log("fname is not present");
-    }
-  }else{
-    console.log("name is not present");
-  }
-}else{
-  console.log("object is not present");
-}
+// if(obj){
+//   if(obj.name){
+//     if(obj.name.fname){
+//       console.log(obj.name.fname);
+//     }else{
+//       console.log("fname is not present");
+//     }
+//   }else{
+//     console.log("name is not present");
+//   }
+// }else{
+//   console.log("object is not present");
+// }
 
 // objectName.property ?. property?.property?.property?.property
 
 console.log(obj.name?.fname);
-console.log(obj.address?.street?.city);
+console.log(obj.address?.presentAddress);
 console.log(obj.address?.city);
 console.log(obj.address?.street);
+console.log(obj.address?.presentAddress?.street);
+console.log(obj.address?.presentAddress?.city);
+
+
 

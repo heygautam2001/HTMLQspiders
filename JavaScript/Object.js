@@ -26,40 +26,40 @@ var obj = {
   ],
 };
 
-console.log(obj);
-console.log(typeof obj);
+// console.log(obj);
+// console.log(typeof obj);
 
 // ? ================================= Read =========================
 // ~ 1. dot notation
 // Syntax : ObjName.KeyName -------> value
-console.log(obj.age);
-console.log(obj.sname);
-console.log(obj.course);
-console.log(obj.address);
+// console.log(obj.age);
+// console.log(obj.sname);
+// console.log(obj.course);
+// console.log(obj.address);
 
-// console.log(obj.47); // we cannot access like that.. number keys
+//  console.log(obj.47); // we cannot access like that.. number keys
 
-console.log(obj.skills);
-console.log(obj.skills[2]);
-console.log(obj.skills[4][3]);
+// console.log(obj.skills);
+// console.log(obj.skills[2]);
+// console.log(obj.skills[4][3]);
 
 // ~ Bracket Notation
 // synatx : ObjName["KeyName"] ------ > values
 
-console.log(obj["age"]);
-console.log(obj["sname"]);
-console.log(obj["course"]);
-console.log(obj["address"]);
-console.log(obj["47"]);
-console.log(obj[47]);
+// console.log(obj["age"]);
+// console.log(obj["sname"]);
+// console.log(obj["course"]);
+// console.log(obj["address"]);
+// console.log(obj["47"]);
+// console.log(obj[47]);
 
-var age = "sname";
-var x = "age";
-var course = x;
-var sname = course;
-console.log(obj[sname]); /// In this case name is treated like a variable name.
-console.log(obj["age"]);
-console.log(obj["sname"]);
+// var age = "sname";
+// var x = "age";
+// var course = x;
+// var sname = course;
+// console.log(obj[sname]); /// In this case name is treated like a variable name.
+// console.log(obj["age"]);
+// console.log(obj["sname"]);
 
 // ? ========= create -========
 
@@ -67,31 +67,31 @@ console.log(obj["sname"]);
 // syantx : objname.keyName = value
 obj.address = "Delhi";
 obj.institute = "Qspiders Delhi";
-console.log(obj);
+// console.log(obj);
 
 // ~ Bracket notation
 // syntax : objName["keyName"] = value;
 
-obj["Friends"] = ["Ketan" , "Gaurav" , "Ankit"];
-var girlFriendCount = "gfcount"
-obj[girlFriendCount] = 0;
+// obj["Friends"] = ["Ketan" , "Gaurav" , "Ankit"];
+// var girlFriendCount = "gfcount"
+// obj[girlFriendCount] = 0;
 
-console.log(obj);
+// console.log(obj);
 
 // ? ======== Update ===========
 
 // dot notation
 // Syntax : objName.existingKeyName = newvalue;
-obj.sname = "Himanshu";
-obj.skills[2] = "TypeScript";
-console.log(obj);
+// obj.sname = "Himanshu";
+// obj.skills[2] = "TypeScript";
+// console.log(obj);
 
 // ~ bracket Notation
 //syntax : objName["ExistingKeyName"] = newvalue;
-obj["age"] = 16;
-obj[girlFriendCount] =  10;
+// obj["age"] = 16;
+// obj[girlFriendCount] =  10;
 
-console.log(obj);
+// console.log(obj);
 
 // ? ============== Delete ============
 // ~ dot Notation
@@ -109,6 +109,6 @@ delete obj["course"];
 
 console.log(obj);
 
-obj["age"] = 36;
-console.log(obj);
+// obj["age"] = 36;
+// console.log(obj);
 

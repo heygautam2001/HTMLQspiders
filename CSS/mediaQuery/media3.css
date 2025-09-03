@@ -28,6 +28,9 @@
 #gridContainer div{
   border: solid gray;
   border-radius: 10px;
+  background-image: url("./55159-1080x1920-iphone-1080p-marvel-heroes-wallpaper-photo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @media screen and (800px <= width){

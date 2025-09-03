@@ -22,4 +22,5 @@ function greet(){
 }
 
 console.log(greet());
+
 console.log("end");

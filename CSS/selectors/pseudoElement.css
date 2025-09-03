@@ -2,16 +2,21 @@
 
 p::before{
   content: "Mr .";
+  color: crimson;
+  background-color: black;
+  font-size: xx-large;
+  font-family: cursive;
 }
 
-p::after{
+ p::after{
   content: " , you got selected the companmy with a package of 20lpa";
+  background-color: yellow;
 }
 
 div::first-line{
   color: blue;
-}
-div::first-letter{
+} 
+ div::first-letter{
   color: red;
   font-size: 50px;
 }
@@ -23,4 +28,4 @@ div::selection{
 
 li::marker{
   color: red;
-}
+} 

@@ -85,8 +85,18 @@ console.log(char.length);
  console.log(char.replaceAll('m','r'));
 
  let strng = " I am Gautam Kumar"
- console.log(strng.split('?j',strng.length));
+ console.log(strng.split(' ',strng.length));
 
  console.log(str1.match(str2));
  
+// * HELLO JS
+// ~ HEHEHEHEHE
+// ^ YELLOW YELLOWW YWLLOW
+// // GREY WITH STROKES
 
+// & PINK IS THERE
+
+// ! RED IS THEERE
+// ? BLUE IS THERE
+
+// MUSTARD(TODO) 

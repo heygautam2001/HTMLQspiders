@@ -11,20 +11,22 @@ screen
 print
 */
 
-@media print
+/* @media print
 {
+  h1::after{
+    content: "print" ;
+  }
   h1{
+
     color: crimson;
   }
 
   p{
     color: blue;
   }
+} */
 
-
-}
-
-@media screen {
+/* @media screen {
 
   h1{
        color: crimson;
@@ -34,9 +36,9 @@ print
   color: blue;
   }
   
-}
+} */
 
-@media screen {
+/* @media screen {
   body{
     padding: 50px;
 
@@ -53,9 +55,9 @@ print
     color: white;
     background-color: brown;
   }
-}
+} */
 
-@media all {
+/* @media all {
   body{
    background-color: bisque;
    color: white;
@@ -69,12 +71,12 @@ print
   p{
      color: darkgreen;
   }
-}
+} */
 
 
 /* Example 2 case 1 */
 
- /* @media screen and (min-width : 0px) and (max-width : 400px){
+ /* @media screen and (min-width:0px) and (max-width : 400px){
   #viewmode::after{
     content: "mobile";
   }
@@ -83,9 +85,9 @@ print
     background-color: bisque;
 
   }
-} */
+}
 
-/* @media screen and (min-width : 400px) and (max-width : 800px){
+@media screen and (min-width:400px) and (max-width:800px){
   #viewmode::after{
     content: "Tablet";
   }
@@ -94,9 +96,9 @@ print
     background-color: chocolate;
 
   }
-} */
+}
 
-/* @media screen and (min-width : 800px){
+@media screen and (min-width:800px){
   #viewmode::after{
     content: "laptop";
   }
@@ -111,7 +113,7 @@ print
 
 /* ====== case 2 */
 
-@media screen and (0 <= min-width <= 400){
+@media screen and ( 0 <= min-width >= 400 ){
   #viewmode::after{
     content: "mobile";
   }
@@ -123,7 +125,7 @@ print
 }
 
 
-@media screen and (400 <= width <= 800){
+/* @media screen and (400 <= width <= 800){
   #viewmode::after{
     content: "tablet";
   }
@@ -133,16 +135,15 @@ print
     background-color: rgb(35, 137, 134);
 
   }
-}
+} */
 
-@media screen and ( width >= 800){
-  #viewmode::after{
+/* @media all and (min-width: 800px) {
+  #viewmode::after {
     content: "desktop";
   }
 
-  body{
+  body {
     color: white;
     background-color: rgb(13, 91, 28);
-
   }
-}
+} */

@@ -29,13 +29,13 @@ var x = Array();
 console.log(x);
 
 var obj1 = Object();
-console.log(obj);
+console.log(obj1);
 
 obj1.sname = "Gautam";
 obj1.course = "Java full-stack";
 console.log(obj1);
 
-var obj2 = Object({address:"haryana" , street : "XYZ"});
+var obj2 = new Object({address:"haryana" , street : "XYZ"});
 console.log(obj2);
 
 obj2.age = 20;
