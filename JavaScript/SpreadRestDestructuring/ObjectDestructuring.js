@@ -8,29 +8,26 @@ var obj = {
   gender : "male"
 
 }
-console.log(obj);
-/*
-var {a,b,c,d} = obj;
-console.log(a);
-console.log(b);
-console.log(c);
-console.log(d);
+// console.log(obj);
 
-undefined
-undefined
-undefined
-undefined
+// var {a,b,c,d} = obj;
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// console.log(d);
+
+// undefined
+// undefined
+// undefined
+// undefined
 
 var a = obj.a;
 var b = obj.b;
-*/
-
-/*
 var{firstName , lastName , email , gender} = obj;
-console.log(firstName);
-console.log(lastName);
-console.log(email);
-console.log(gender);
+// console.log(firstName);
+// console.log(lastName);
+// console.log(email);
+// console.log(gender);
 
 console.log();
 firstName = obj.firstName;
@@ -39,12 +36,12 @@ email = obj.email;
 gender = obj.gender;
 console.log();
 
-console.log(firstName);
-console.log(lastName);
-console.log(email);
-console.log(gender);
+// console.log(firstName);
+// console.log(lastName);
+// console.log(email);
+// console.log(gender);
 
-*/
+
 
 // ? case 2
 // Expliit way
@@ -128,28 +125,55 @@ var obj = {
     },
   };
  
-console.log(obj);
+// console.log(obj);
 
 // Explicit way
 
 var{sname , course , skills} = obj;
-console.log(sname);
-console.log(course);
-console.log(skills);
+// console.log(sname);
+// console.log(course);
+// console.log(skills);
 
 var{frontend , database , backend , others} = skills;
-console.log(frontend);
-console.log(database);
-console.log(backend);
-console.log(others);
+// console.log(frontend);
+// console.log(database);
+// console.log(backend);
+// console.log(others);
 
 var[a,b,c,d] = frontend;
-console.log(a);
-console.log(b);
-console.log(c);
-console.log(d);
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// console.log(d);
 
 var{core , advanced , packages} = backend;
-console.log(core);
-console.log(advanced);
-console.log(packages);
+// console.log(core);
+// console.log(advanced);
+// console.log(packages);
+
+
+const arr = [
+{
+name : "Gautam" , 
+course: "Jfs",
+Expertise :"java",
+},
+{
+  name : "Govind" , 
+  course: "Jfs",
+  Expertise :"web tech",
+},
+{
+  name : "Yash" , 
+  course: "Jfs",
+  Expertise :"advance java",
+},
+
+]
+
+
+// arr.map((value , idx)=>{
+//   console.log(idx);
+// console.log(value.name);
+
+// })

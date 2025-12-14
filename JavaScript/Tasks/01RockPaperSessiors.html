@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roc Paper Scissors</title>
+  </head>
+  <body>
+    <p>Rock Paper Sessiors</p>
+
+    <!-- <button
+      onclick="
+     let computerMove = rockPaperScissors();
+     if(computerMove === 'rock'){
+      alert(`YOUR MOVE ROCK COMPUTERMOVE ${computerMove} ! You WON `)
+     } else if(computerMove === 'paper'){
+      alert(`YOUR MOVE ROCK COMPUTERMOVE ${computerMove} ! You LOST `)
+     }else {
+      alert(`YOUR MOVE ROCK COMPUTERMOVE ${computerMove} ! You LOST `)
+     
+     }
+    "
+    >
+      Rock
+    </button>
+    <button
+      onclick="
+     computerMove = rockPaperScissors();
+     if(computerMove === 'rock'){
+      alert(`YOUR MOVE PAPER COMPUTERMOVE ${computerMove} ! You LOST `)
+     } else if(computerMove === 'paper'){
+      alert(`YOUR MOVE PAPER COMPUTERMOVE ${computerMove} ! You WON `)
+     }else {
+      alert(`YOUR MOVE PAPER COMPUTERMOVE ${computerMove} ! You LOST `)
+     
+     }
+    "
+    >
+      Paper
+    </button>
+    <button
+      onclick="
+     computerMove = rockPaperScissors();
+     if(computerMove === 'rock'){
+      alert(`YOUR MOVE SCISSORS COMPUTERMOVE ${computerMove} ! You LOST `)
+     } else if(computerMove === 'paper'){
+      alert(`YOUR MOVE SCISSORS COMPUTERMOVE ${computerMove} ! You LOST `)
+     }else {
+      alert(`YOUR MOVE SCISSORS COMPUTERMOVE ${computerMove} ! You WON `)
+     
+     }
+    "
+    >
+      Sessiors
+    </button> -->
+
+    <button
+      onclick="
+    let computerMove = rockPaperScissors();
+    let res = '';
+
+    if(computerMove === 'rock'){
+      res = 'Tie';
+    }else if(computerMove === 'paper'){
+      res = 'You Lost !';
+    }else{
+      res = 'You Win !'
+
+    }
+    alert(`You picked rock computer picked ${computerMove},${res}`)
+    "
+    >
+      Rock
+    </button>
+    <button
+      onclick="
+    computerMove = rockPaperScissors();
+    res = '';
+
+    if(computerMove === 'rock'){
+      res = 'You Won !';
+    }else if(computerMove === 'paper'){
+      res = 'Tie';
+    }else{
+      res = 'You Lost !'
+
+    }
+    alert(`You picked paper computer picked ${computerMove},${res}`)
+    "
+    >
+      Paper
+    </button>
+    <button
+      onclick="
+    computerMove = rockPaperScissors();
+    res = '';
+
+    if(computerMove === 'rock'){
+      res = 'You Lost!';
+    }else if(computerMove === 'paper'){
+      res = 'You won!';
+    }else{
+      res = 'Tie'
+
+    }
+    alert(`You picked scissors computer picked ${computerMove},${res}`)
+    "
+    >
+      Scissors
+    </button>
+
+    <script>
+      function rockPaperScissors() {
+        const randomNumber = Math.random();
+
+        let computerMove = "";
+
+        if (randomNumber >= 0 && randomNumber < 1 / 3) {
+          computerMove = "rock";
+        } else if (randomNumber >= 1 / 3 && randomNumber < 2 / 3) {
+          computerMove = "paper";
+        } else {
+          computerMove = "scissors";
+        }
+        return computerMove;
+        console.log(computerMove);
+      }
+      rockPaperScissors();
+    </script>
+  </body>
+</html>
+
+<!-- false values are 
+1. false
+2. null
+3. undefined
+4. ''
+5. 0
+6. -0
+7. NaN 
+-->

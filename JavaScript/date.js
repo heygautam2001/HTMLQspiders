@@ -45,14 +45,14 @@ date1.setFullYear(2001 , 8 , 30);
 // ! create your own date....
 
 let date2 = new Date(2001,8,30,11,30,53,10);
-console.log(date2.toLocaleString());
-console.log(typeof date2);
+// console.log(date2.toLocaleString());
+// console.log(typeof date2);
 
 // ^ ===========================================================^
 
 let date3 = new Date();
- console.log(date3.toLocaleTimeString());
+//  console.log(date3.toLocaleTimeString());
 
-console.log(Date.now());
+// console.log(Date.now());
 
-console.log(date3.getTime());
+// console.log(date3.getTime());

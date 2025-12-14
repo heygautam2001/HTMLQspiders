@@ -18,12 +18,12 @@ let arr = [12 , 54, 32 , 21, 78 ,  89 ,98 , 67 , 10 , 11 ,13 ];
 // });
 // console.log(trr);
 
-// let brr = arr.map((val)=>{
-//   return val+50;
-// })
+let brr = arr.map((val)=>{
+  return val+50;
+})
 
-// console.log(brr);
-// console.log(arr);
+console.log(brr);
+console.log(arr);
 
 
 // let brr = arr.map((val , idx)=>{

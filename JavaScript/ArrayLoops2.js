@@ -6,13 +6,13 @@ let marks = [10 , 20 , 30 , 40 , 50 , 60 , 70 , 80 , 90 , 100];
 
 let result = [];
 for(let i = 0 ; i <= marks.length ; i++){
-  console.log(marks[i]);
+  // console.log(marks[i]);
 
   if(marks[i] >= 35){
     result.push(marks[i]);
   }
 }
-console.log(result);
+// console.log(result);
 
 // ? case 2 : using for of loops
 
@@ -21,14 +21,14 @@ let marks1 = [10 , 20 , 30 , 40 , 50 , 60 , 70 , 80 , 90 , 100]
 let result1 = [];
 
 for(let marks of marks1){
-  console.log(marks);
+  // console.log(marks);
 
   if(marks >= 35){
     result1.push(marks)
   }
 }
 
-console.log(result1);
+// console.log(result1);
 
 
 // ? case 3 : using filter method
@@ -52,18 +52,18 @@ function looper(val)
 {
   return val > 60;
 }
-console.log(arr.filter(looper));
+// console.log(arr.filter(looper));
 
 let looper1 = (val)=>{
        return val > 60;
 }
 
-console.log(arr.filter(looper1));
+// console.log(arr.filter(looper1));
 
  let val = arr.filter((val)=>{
   return val > 60;
 })
-console.log(val);
+console.log("value "+val);
 
 // !========= Map Method ========================
 // case 1 : Using for Loop

@@ -10,6 +10,7 @@ console.log(n+220);
 
 // ! ============== Document ====================== 
 // It will represent the whole html document.
+
 console.log(window.document);
 console.log(document); 
 
@@ -63,8 +64,7 @@ console.table([
   "yash feeling good",
   "Gautam feeling awesome",
   "Chavvi sardar ki bandi",
-  "swati sparsh ki bndi"
-
+  "swati sparsh ki bandi"
 ]);
 
 console.table([

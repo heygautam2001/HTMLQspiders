@@ -1,30 +1,31 @@
 // ! ================= BOM =================
 
 /**
- * In javaScript BOM stands about for Browser Object Model.
- * - Its a collection of object that allows javaScript to interact with the browser
- * Everything in JavaScript is an object..
+ *-In javaScript BOM stands about for Browser Object Model.
+ *-It is a collection of object that allows javaScript to interact with the browser
+ *-Everything in JavaScript is an object..
  * 
- * BOM represented by a keyword "window"
+ *-BOM represented by a keyword "window"
  * 
  */
 
 
 // ? ======== window properties ================
-console.log(window); // it points the whole browser
-console.log(window.document);
-console.log(window.screen);
-console.log(window.history);
-console.log(window.navigator);
-console.log(window.location);
-console.log(window.innerHeight);
-console.log(window.outerHeight);
-console.log(window.innerWidth);
-console.log(window.outerWidth);
+
+// console.log(window); // It points the whole browser
+//  console.log(window.document);
+//  console.log(window.screen);
+//  console.log(window.history);
+//  console.log(window.navigator);
+//  console.log(window.location);
+// console.log(window.innerHeight);
+// console.log(window.outerHeight);
+// console.log(window.innerWidth);
+// console.log(window.outerWidth);
 
 
 // ? =========== window method ================= 
-
+/*
 console.log(window.prompt("Enter your name"));
 console.log(window.alert("Emergency danger"));
 window.confirm("Once after sunmission you cannikt edit code");
@@ -33,9 +34,10 @@ window.open("https://www.meesho.com");
 window.open("https://www.meesho.com");
 
 window.close();
-
+*/
 // ~ ==================== web browser Api ===================================================
 
+/*
 console.log("I am first");
 
 setTimeout(()=>{
@@ -75,7 +77,7 @@ setTimeout(()=>{
 clearInterval(intervals)
 },5000)
 
-
+*/
 
 
 

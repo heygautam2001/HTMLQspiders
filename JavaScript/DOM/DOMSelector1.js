@@ -3,15 +3,17 @@
 // for class we have to use .
 // for tag we have to use dierect tag msg
 
-// let qsid = document.querySelector("#heading3");
-// console.log(qsid);
+/*
+let qsid = document.querySelector("#heading3");
+console.log(qsid);
 
-// let qsClass = document.querySelector(".demo");
-// console.log(qsClass);
+let qsClass = document.querySelector(".demo");
+console.log(qsClass);
 
-// let qstag = document.querySelector("div");
-// console.log(qstag);
+let qstag = document.querySelector("div");
+console.log(qstag);
 
+*/
 
 // ! QuerySeclectorAll();
 
@@ -19,11 +21,13 @@
 // for class we have to use .
 // for tag we have to use dierect tag msg
 
+
 let qsaid = document.querySelectorAll("#heading3");
 console.log(qsaid);
 
 let qsaClass = document.querySelectorAll(".demo");
 console.log(qsaClass);
+console.log(qsaClass[1]);
 
 let qsatag = document.querySelectorAll("div");
 console.log(qsatag);
