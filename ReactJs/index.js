@@ -1,6 +1,6 @@
 /*
 ! Notes
-- Modules : Modules helps us to brea the large ammount code into smaller pieces.
+- Modules : Modules helps us to break the large ammount code into smaller pieces.
 
 - we can export it in two ways
 - using default export

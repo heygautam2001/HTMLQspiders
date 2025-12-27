@@ -30,6 +30,7 @@ var obj = {
 // console.log(typeof obj);
 
 // ? ================================= Read =========================
+
 // ~ 1. dot notation
 // Syntax : ObjName.KeyName -------> value
 // console.log(obj.age);

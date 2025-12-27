@@ -7,13 +7,13 @@ transition-timing-function:
 
 */
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-#box{
+#box {
   margin: 50px;
   height: 400px;
   width: 400px;
@@ -29,9 +29,7 @@ transition-timing-function:
   transition-timing-function: ease-in-out;
   transition-timing-function: step-start;
   transition-timing-function: step-end;
-  transition-timing-function: steps(100 , end);
-
-
+  transition-timing-function: steps(100, end);
 }
 
 #box:hover{
@@ -39,4 +37,10 @@ transition-timing-function:
   width: 200px; */
   border-radius: 50%;
   background-color: blue;
+  
+  content-visibility: visible;
+}
+
+#box::backdrop{
+  content: 'Happy Birthday radha';
 }

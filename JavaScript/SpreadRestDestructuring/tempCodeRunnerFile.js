@@ -1,1 +1,1 @@
-console.log(obj);
+console.log(x);

@@ -28,10 +28,9 @@ function sumnum(...num) {
 // console.log(sumnum(1, 2, 3, 4, 5));
 
 
-//! fuction check
+//! function Check
 
 function hello(hello){
-
   console.log(Object.entries(hello));
 }
 hello([12 , 13 , 14]);

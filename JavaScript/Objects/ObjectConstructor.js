@@ -20,10 +20,10 @@ function functionName(params){
 
 
 function student(sname , course , age , ratings){
-  // console.log(sname);
-  // console.log(course);
-  // console.log(age);
-  // console.log(ratings);
+  console.log("sname ",sname);
+  console.log("course ",course);
+  console.log("age ",age);
+  console.log("ratings ",ratings);
   // this ====== s1
   // s1.sname ========  this.sname;
   this.sname = sname;
@@ -39,7 +39,7 @@ function student(sname , course , age , ratings){
 
 
 let s1 = new student("Mana" , 22 , "Mern stack" , "1")
-// console.log(s1);
+ console.log(s1);
 // s1.sname = "Aman";
 // console.log(s1);
 

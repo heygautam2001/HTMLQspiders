@@ -1,5 +1,5 @@
 let promise1 = new Promise((resolve , reject)=>{
-  let error = false
+  let error = true
   if(!error){
     resolve({userName:"heygautam2001" , email : "gautam@gautam.com"})
   }else{
@@ -15,7 +15,6 @@ let promise2 = new Promise((resolve , reject)=>{
   }else{
     reject("Unable to fetch data");
   }
-
 })
 
 let promise3 = new Promise((resolve , reject)=>{
@@ -25,8 +24,15 @@ let promise3 = new Promise((resolve , reject)=>{
   }else{
     reject("Unable to fetch data");
   }
-
 })
+
+// 6. Promise.all()
+// Purpose: Runs multiple promises in parallel
+// MDN idea: Resolves when all promises resolve, rejects if any fail
+// Key points:
+// Returns array of results in order
+// Fails fast if one promise rejects
+// Best for dependent success scenarios
 
 // Promise.all([promise1 , promise2 , promise3])
 // .then((result)=>{
@@ -37,6 +43,15 @@ let promise3 = new Promise((resolve , reject)=>{
 //   console.log("Promises are either consumed and rejected ");
 // })
 
+
+// 9. Promise.any()
+// Purpose: Resolves when any promise fulfills
+// MDN idea: Ignores rejected promises unless all fail
+
+// Key points:
+// Rejects only if all promises reject
+// Error type: AggregateError
+
 // Promise.any([promise1 , promise2 , promise3])
 // .then((result)=>{
 //   console.log(result);
@@ -46,21 +61,21 @@ let promise3 = new Promise((resolve , reject)=>{
 //   console.log("Request are either Resolve or rejected");
 // })
 
+// 8. Promise.race()
+// Purpose: Resolves/rejects as soon as the first promise settles
 
-Promise.race([promise1 , promise2 , promise3])
-.then((result)=>{
-  console.log(result);
-}).catch((err)=>{
- console.log(err);
-}).finally(()=>{
-  console.log("Promise are either resolved or rejected");
-})
+// Use cases:
+// Timeout handling
+// First response wins
 
-Promise.allSettled().then.catch()
+// Promise.race([promise1 , promise2 , promise3])
+// .then((result)=>{
+//   console.log(result);
+// }).catch((err)=>{
+//  console.log(err);
+// }).finally(()=>{
+//   console.log("Promise are either resolved or rejected");
+// })
 
-
-
-
-
-
+Promise.allSettled([promise1,promise2,promise3]).then((res)=>{console.log(res);}).catch((error)=>{console.log(error);});
 

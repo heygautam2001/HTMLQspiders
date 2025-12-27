@@ -122,10 +122,10 @@ print
     background-color: bisque;
 
   }
-}
+} 
 
 
-/* @media screen and (400 <= width <= 800){
+ @media screen and (400 <= width <= 800){
   #viewmode::after{
     content: "tablet";
   }
@@ -135,9 +135,9 @@ print
     background-color: rgb(35, 137, 134);
 
   }
-} */
+} 
 
-/* @media all and (min-width: 800px) {
+ @media all and (min-width: 800px) {
   #viewmode::after {
     content: "desktop";
   }
@@ -146,4 +146,4 @@ print
     color: white;
     background-color: rgb(13, 91, 28);
   }
-} */
+}

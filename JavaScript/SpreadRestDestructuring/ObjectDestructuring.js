@@ -2,12 +2,11 @@
 // ? case 1:
 
 var obj = {
-  firstName : "Rohit",
-  lastName : "Kumar",
+  firstName: "Rohit",
+  lastName: "Kumar",
   email: "rohit@gmail.com",
-  gender : "male"
-
-}
+  gender: "male",
+};
 // console.log(obj);
 
 // var {a,b,c,d} = obj;
@@ -23,7 +22,7 @@ var obj = {
 
 var a = obj.a;
 var b = obj.b;
-var{firstName , lastName , email , gender} = obj;
+var { firstName, lastName, email, gender } = obj;
 // console.log(firstName);
 // console.log(lastName);
 // console.log(email);
@@ -40,8 +39,6 @@ console.log();
 // console.log(lastName);
 // console.log(email);
 // console.log(gender);
-
-
 
 // ? case 2
 // Expliit way
@@ -104,76 +101,70 @@ console.log(Database);
 
 */
 // ? case 3
-var obj = {
+let obj2 = {
   sname: "Pragya",
   course: "MERN",
-  skills:{
-    frontend:["HTML" , "CSS" , "JavaScript", "react js"],
-    database:["sql" , "Node JS"],
+  skills: {
+    frontend: ["HTML", "CSS", "JavaScript", "react js"],
+    database: ["sql", "Node JS"],
     backend: {
-      core : ["JavaScript" , "Node JS"],
-      advanced:["Express JS"],
-      packages:{
+      core: ["JavaScript", "Node JS"],
+      advanced: ["Express JS"],
+      packages: {
         dev: "Nodemon",
       },
     },
-    others:{
-      git:["git" , "github" , "gitlab"],
-      hobbies:["Reading" , "Swimming" , "Scrolling Reels"],
+    others: {
+      git: ["git", "github", "gitlab"],
+      hobbies: ["Reading", "Swimming", "Scrolling Reels"],
+    },
+  },
+};
 
-    },
-    },
-  };
- 
 // console.log(obj);
 
 // Explicit way
 
-var{sname , course , skills} = obj;
+var { sname, course, skills } = obj2;
 // console.log(sname);
 // console.log(course);
 // console.log(skills);
 
-var{frontend , database , backend , others} = skills;
+var { frontend, database, backend, others } = skills;
 // console.log(frontend);
 // console.log(database);
 // console.log(backend);
 // console.log(others);
 
-var[a,b,c,d] = frontend;
+var [a, b, c, d] = frontend;
 // console.log(a);
 // console.log(b);
 // console.log(c);
 // console.log(d);
 
-var{core , advanced , packages} = backend;
+var { core, advanced, packages } = backend;
 // console.log(core);
 // console.log(advanced);
 // console.log(packages);
 
-
 const arr = [
-{
-name : "Gautam" , 
-course: "Jfs",
-Expertise :"java",
-},
-{
-  name : "Govind" , 
-  course: "Jfs",
-  Expertise :"web tech",
-},
-{
-  name : "Yash" , 
-  course: "Jfs",
-  Expertise :"advance java",
-},
+  {
+    name: "Gautam",
+    course: "Jfs",
+    Expertise: "java",
+  },
+  {
+    name: "Govind",
+    course: "Jfs",
+    Expertise: "web tech",
+  },
+  {
+    name: "Yash",
+    course: "Jfs",
+    Expertise: "advance java",
+  },
+];
 
-]
-
-
-// arr.map((value , idx)=>{
-//   console.log(idx);
-// console.log(value.name);
-
-// })
+arr.map((value, idx) => {
+  console.log(idx , " :",value.name);
+});

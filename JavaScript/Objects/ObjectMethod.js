@@ -2,7 +2,7 @@
 
 /**
  * Keys
- * valuses
+ * values
  * entries
  * hasOwnProperty
  * assign

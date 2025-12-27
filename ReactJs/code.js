@@ -1,10 +1,10 @@
 // ! ========= Export File ===========
 
 // ? Default export
-// let sname = "Fiza Kapoor";
-// let course = "Python Full Stack";
+let sname = "Fiza Kapoor";
+let course = "Python Full Stack";
 
-// export default sname;
+export default sname;
 // export default course;
 
 //? Named export
@@ -100,7 +100,7 @@ export{
 }
 
 let professorName = "Ankittttt";
-export default professorName;
+// export default professorName;
 
 
 
